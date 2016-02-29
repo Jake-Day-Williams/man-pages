@@ -1,0 +1,12 @@
+<h1>COMMAND LINE</h1>
+<hr>
+
+
+<ol>
+  <% @commands.each do |command| %>
+  <li><a href= "/man?command=<%=command%>"><%=command%></a></li>
+  <% end %>
+</ol>
+
+<hr>
+<a href= "/" >Menu</a></li>
